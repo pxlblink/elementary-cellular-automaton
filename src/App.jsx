@@ -2,6 +2,8 @@ import { useState } from "react";
 import Grid from "./components/Grid";
 import Header from "./components/Header";
 import Input from "./components/Input";
+import { Route, Routes } from "react-router";
+import Home from "./pages/Home";
 
 function App() {
   const [inputNo, setInputNo] = useState();
@@ -10,6 +12,9 @@ function App() {
 
   return (
     <div>
+      <Routes>
+        <Route index element={<Home />} />
+      </Routes>
       <Header />
       <Input
         inputNo={inputNo}
