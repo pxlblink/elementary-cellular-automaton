@@ -6,7 +6,7 @@ function computeNextCell(left, current, right, rule) {
   return newCell;
 }
 
-export default function calculateNextRow(rowData, ruleNo) {
+export default function computeNextRow(rowData, ruleNo) {
   let result = [];
   let rowLen = rowData.length;
   for (let i = 0; i < rowLen; i++) {
