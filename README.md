@@ -11,10 +11,10 @@ emerge from very simple set of rules.
 
 ## Tech stack
 
-Framework: React
-Build tool: Vite
-Package Manager: PNPM
-Styling: Tailwind CSS
+- Framework: React
+- Build tool: Vite
+- Package Manager: PNPM
+- Styling: Tailwind CSS
 
 ## Prerequisites
 
