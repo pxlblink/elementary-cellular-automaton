@@ -4,7 +4,7 @@
 
 An Elementary Cellular Automaton is a discrete, one-dimensional automaton
 (self-operating machine). Starting from one row of binary cells, it evolves
-through time steps according to specified set of rules
+through time steps according to specified set of rules.
 
 This project shows how things like chaotic systems and fractal patterns can
 emerge from very simple set of rules.
@@ -18,22 +18,22 @@ emerge from very simple set of rules.
 
 ## Prerequisites
 
-Ensure you have a working installation of *Node.js* and *PNPM*
+Ensure you have a working installation of *Node.js* and *PNPM*.
 
 ## Running the project
 
-- clone the project:
+- Clone the project:
 ```bash
 git clone https://github.com/pxlblink/elementary-cellular-automaton
 cd elementary-cellular-automaton
 ```
 
-- install project dependencies:
+- Install project dependencies:
 ```bash
 pnpm install
 ```
 
-- run a development server to view the project:
+- Run a development server to view the project:
 
 ```bash
 pnpm dev
