@@ -2,6 +2,7 @@ import { useState } from "react";
 import Header from "../components/Header";
 import Input from "../components/Input";
 import Grid from "../components/Grid";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const [inputNo, setInputNo] = useState();
@@ -24,6 +25,7 @@ export default function Home() {
           <p>Fill the input and press generate</p>
         </div>
       )}
+      <Footer />
     </>
   );
 }
