@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 export default function Help() {
   return (
     <>
@@ -29,6 +31,9 @@ export default function Help() {
         >
           Stanford encyclopedia of philosophy
         </a>
+      </div>
+      <div className="absolute bottom-0 mx-2">
+        <Link to="/">Back</Link>
       </div>
     </>
   );
