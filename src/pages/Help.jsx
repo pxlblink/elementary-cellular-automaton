@@ -4,7 +4,7 @@ export default function Help() {
   return (
     <>
       <h1 className="px-1 mx-auto mt-20 mb-8 max-w-xl text-3xl text-center text-balance">
-        Source on elementary cellular automaton
+        Sources to read on elementary cellular automaton
       </h1>
       <div className="flex flex-col gap-2 justify-center content-center items-center px-3">
         <a
