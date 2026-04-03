@@ -1,0 +1,35 @@
+export default function Help() {
+  return (
+    <>
+      <h1 className="px-1 mx-auto mt-20 mb-8 max-w-xl text-3xl text-center text-balance">
+        Source on elementary cellular automaton
+      </h1>
+      <div className="flex flex-col gap-2 justify-center content-center items-center px-3">
+        <a
+          className="block text-xl text-center text-blue-800 underline text-balance"
+          href="https://en.wikipedia.org/wiki/Elementary_cellular_automaton"
+        >
+          Wikipedia
+        </a>
+        <a
+          className="block text-xl text-center text-blue-800 underline text-balance"
+          href="https://mathworld.wolfram.com/ElementaryCellularAutomaton.html"
+        >
+          Wolfram math world
+        </a>
+        <a
+          className="block text-xl text-center text-blue-800 underline text-balance"
+          href="https://natureofcode.com/cellular-automata/"
+        >
+          Nature of code
+        </a>
+        <a
+          className="block text-xl text-center text-blue-800 underline text-balance"
+          href="https://plato.stanford.edu/entries/cellular-automata/"
+        >
+          Stanford encyclopedia of philosophy
+        </a>
+      </div>
+    </>
+  );
+}
