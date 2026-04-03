@@ -22,19 +22,18 @@ Ensure you have a working installation of *Node.js* and *PNPM*.
 
 ## Running the project
 
-- Clone the project:
+1. Clone the project:
 ```bash
 git clone https://github.com/pxlblink/elementary-cellular-automaton
 cd elementary-cellular-automaton
 ```
 
-- Install project dependencies:
+2. Install project dependencies:
 ```bash
 pnpm install
 ```
 
-- Run a development server to view the project:
-
+3. Run a development server to view the project:
 ```bash
 pnpm dev
 ```
